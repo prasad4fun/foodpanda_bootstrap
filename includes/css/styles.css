@@ -1,0 +1,713 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #Menu{
+     margin-top: 0px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #slide1 {
+   	background: url('../../images/hr_manager.jpg') center no-repeat;
+   }
+
+   #slide2 {
+   	background: url('../../images/php.png') center no-repeat;
+   }
+
+   #slide3 {
+   	background: url('../../images/se.jpg') center no-repeat;
+   }
+   #slide1,#slide2,#slide3{
+     height:200px;
+     border-radius: 5px;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar{
+     margin: 0px;
+   }
+   .navbar{
+     background-color: #608428;
+     padding: 0px;
+   }
+   #header .dropdown-menu{
+     background-color: #608428;
+   }
+   #header h1{
+     font-size: 50px;
+     height: 50px;
+     margin: 0px;
+   }
+   #header h1,.hero h3{
+    color: #e8e8e8 ;
+    text-shadow: 1px 2px 5px black;
+   }
+   #header li{
+     padding-right: 12px;
+   }
+   #header a{
+     color: #EBE7C6;
+     font-size: 20px;
+   }
+   #header button{
+     margin-right: 30px;
+   }
+   a:focus{
+     color: #555 !important;
+     background-color: #d5d5d5 !important;
+   }
+   #header:active{
+     color: #555 !important;
+   }
+   #logo{
+     padding: 0px 15px;
+   }
+
+
+/* --------------------------------------
+   Hero
+   -------------------------------------- */
+   .hero img{
+     width:100%;
+   }
+   .hero{
+     background-image: url(../../images/food.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     height: 500px;
+   }
+   .hero h1,.hero h3{
+     text-align: center;
+     letter-spacing: 1px;
+   }
+   .hero h1{
+     color: white;
+    font-size: 40px;
+    padding: 300px 0px 0px 0px;
+   }
+   .hero h3{
+     font-size: 30px;
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   body{
+     font-family: sans-serif !important;
+     background: grey;
+   }
+   .title{
+     font-size: 18px;
+     font-weight: 700;
+     margin: 0px 0px 10px;
+     text-align: center;
+   }
+   .description{
+     font-size: 15px;
+     color: #222;
+     text-align: center;
+   }
+   ul{
+     list-style: none;
+     padding: 0px;
+   }
+   ul li{
+     list-style: none;
+   }
+   h1,h2,h3,h4,h5{
+     color: #232222;
+   }
+
+/* --------------------------------------
+  Services
+  -------------------------------------- */
+  #services{
+    background-color: white;
+    padding-bottom: 20px;
+  }
+  #services_step_1,#services_step_2,#services_step_3,#services_step_4{
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    text-align: center;
+    height: 100px;
+    float: 5px 10px 5px;
+    //width: 100px;
+  }
+  #services_step_1{
+    background-image: url(../../images/steps_sprite.png);
+    background-position: 0 -134px;
+  }
+  #services_step_2{
+    background-image: url(../../images/steps_sprite.png);
+    background-position: 0 -267px;
+  }
+  #services_step_3{
+    background-image: url(../../images/steps_sprite.png);
+    background-position: 0 -400px;
+  }
+  #services_step_4{
+    background-image: url(../../images/steps_sprite.png);
+    background-position: 0 -533px;
+  }
+
+/* --------------------------------------
+   Download
+   -------------------------------------- */
+
+   #download{
+     color: #444;
+     background: #f7f7f7;
+   }
+   #download hr{
+     margin-top: 0px;
+   }
+   #devices img{
+     width:220px;
+   }
+   .download_link{
+     text-align: center;
+     margin: 20px 0px 0px;
+   }
+   .download_link p{
+     font-size: 15px;
+     color: #444;
+   }
+   .download_link img{
+     width: 150px;
+     margin-top: 10px;
+   }
+
+/* --------------------------------------
+   Join us
+   -------------------------------------- */
+   #join_us p{
+     font-size: 15px;
+     color: #444;
+   }
+   #join_us{
+    background: white;
+   }
+   #join_us h1{
+     margin-top: 10px;
+     color: #f75d34;
+   }
+   date{
+     color: #444;
+     font-size: 10px;
+   }
+   #join_us .col-sm-12{
+     padding: 0px;
+   }
+
+/* --------------------------------------
+  footer
+  -------------------------------------- */
+
+  #footer .copy{
+    text-align: center;
+  }
+  #footer h2,#footer h4,#footer p{
+    color: #8c8d8e !important;
+  }
+  #footer{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 20px;
+    background: #232222;
+  }
+  #footer ul li a{
+    color: #d0d0d0;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.5;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  /* --------------------------------------
+scroll-fix
+-------------------------------------- */
+#scroll-fix .btn{
+  margin-right: 30px;
+}
+#scroll-fix hr,#hidden hr{
+  margin-bottom: 0px;
+  padding: 0px;
+}
+#hidden{
+  background: #f7f7f7;
+  display: none;
+}
+#hidden hr{
+  padding: 0px;
+}
+#hidden h2{
+  text-align: center;
+}
+
+/* --------------------------------------
+Footer countries
+-------------------------------------- */
+
+.restaurants h3,.restaurants h6{
+  text-align: center;
+  color: #222;
+  text-shadow: 1px 2px 10px white;
+}
+.restaurants h6{
+  padding-top: 10px;
+}
+.restaurants img{
+  width: 100%;
+  height: 200px;
+}
+.restaurants{
+  background-color: white;
+}
+
+/* --------------------------------------
+  Hover effect
+-------------------------------------- */
+.thumbnail {
+  opacity: 0.8;
+  }
+.thumbnail:hover {
+  opacity: 1;
+  }
+.form-group button{
+  margin: 20px;
+}
+/* --------------------------------------
+  We at foodpanda
+-------------------------------------- */
+#we{
+  background: white;
+  padding: 20px 0px 30px 0px;
+  color: #222222;
+}
+#we img{
+  border-radius: 25px;
+}
+#we p{
+  font-size: 14px;
+  color: #444;
+}
+
+/* --------------------------------------
+  Footer countries
+-------------------------------------- */
+
+.algeria, .argentina, .azerbaijan, .bangladesh, .brazil, .brunei, .bulgaria, .chile, .colombia, .croatia, .czechrepublic, .cambodia, .ecuador, .ghana, .georgia, .hongkong, .hungary, .india, .indonesia, .israel, .ivorycoast, .jordan, .kazakhstan, .kenya, .lebanon, .malaysia, .morocco, .mexico, .italy, .nigeria, .pakistan, .peru, .philippines, .poland, .quatar, .romania, .russia, .rwanda, .saudiarabia, .senegal, .singapore, .slovakia, .serbia, .taiwan, .tanzania, .thailand, .uganda, .ukraine, .vietnam, .qatar, .egypt, .bosnia-and-herzegovina, .montenegro, .hungary, .brazil, .uae
+{
+  background: url("../../images/flags_sprite_062015.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  padding-left: 33px;
+}
+
+.algeria {
+    background-position:0 0;
+    width:27px;
+    height:22px
+}
+
+.argentina {
+    background-position:0 -32px;
+    width:27px;
+    height:22px
+}
+
+.azerbaijan {
+    background-position:0 -64px;
+    width:27px;
+    height:22px
+}
+
+.bangladesh {
+    background-position:0 -96px;
+    width:27px;
+    height:22px
+}
+
+.belarus {
+    background-position:0 -128px;
+    width:27px;
+    height:22px
+}
+
+.brazil {
+    background-position:0 -160px;
+    width:27px;
+    height:22px
+}
+
+.brunai {
+    background-position:0 -192px;
+    width:27px;
+    height:22px
+}
+
+.brunei {
+    background-position:0 -224px;
+    width:27px;
+    height:22px
+}
+
+.bulgaria {
+    background-position:0 -256px;
+    width:27px;
+    height:22px
+}
+
+.cambodia {
+    background-position:0 -288px;
+    width:27px;
+    height:22px
+}
+
+.chile {
+    background-position:0 -320px;
+    width:27px;
+    height:22px
+}
+
+.colombia {
+    background-position:0 -352px;
+    width:27px;
+    height:22px
+}
+
+.croatia {
+    background-position:0 -384px;
+    width:27px;
+    height:22px
+}
+
+.czechrepublic {
+    background-position:0 -416px;
+    width:27px;
+    height:22px
+}
+
+.ecuador {
+    background-position:0 -448px;
+    width:27px;
+    height:22px
+}
+
+.georgia {
+    background-position:0 -480px;
+    width:27px;
+    height:22px
+}
+
+.germany {
+    background-position:0 -512px;
+    width:27px;
+    height:22px
+}
+
+.ghana {
+    background-position:0 -544px;
+    width:27px;
+    height:22px
+}
+
+.hongkong {
+    background-position:0 -576px;
+    width:27px;
+    height:22px
+}
+
+.hungary {
+    background-position:0 -608px;
+    width:27px;
+    height:22px
+}
+
+.india {
+    background-position:0 -640px;
+    width:27px;
+    height:22px
+}
+
+.indonesia {
+    background-position:0 -672px;
+    width:27px;
+    height:22px
+}
+
+.israel {
+    background-position:0 -704px;
+    width:27px;
+    height:22px
+}
+
+.ivorycoast {
+    background-position:0 -736px;
+    width:27px;
+    height:22px
+}
+
+.jordan {
+    background-position:0 -768px;
+    width:27px;
+    height:22px
+}
+
+.kazakhstan {
+    background-position:0 -800px;
+    width:27px;
+    height:22px
+}
+
+.kenya {
+    background-position:0 -832px;
+    width:27px;
+    height:22px
+}
+
+.lebanon {
+    background-position:0 -864px;
+    width:27px;
+    height:22px
+}
+
+.malaysia {
+    background-position:0 -896px;
+    width:27px;
+    height:22px
+}
+
+.marocco {
+    background-position:0 -928px;
+    width:27px;
+    height:22px
+}
+
+.italy {
+    background-position:0 -960px;
+    width:27px;
+    height:22px
+}
+
+.mexico {
+    background-position:0 -992px;
+    width:27px;
+    height:22px
+}
+
+.morocco {
+    background-position:0 -1024px;
+    width:27px;
+    height:22px
+}
+
+.nigeria {
+    background-position:0 -1056px;
+    width:27px;
+    height:22px
+}
+
+.pakistan {
+    background-position:0 -1088px;
+    width:27px;
+    height:22px
+}
+
+.peru {
+    background-position:0 -1120px;
+    width:27px;
+    height:22px
+}
+
+.philippines {
+    background-position:0 -1152px;
+    width:27px;
+    height:22px
+}
+
+.poland {
+    background-position:0 -1184px;
+    width:27px;
+    height:22px
+}
+
+.qatar {
+    background-position:0 -1216px;
+    width:27px;
+    height:22px
+}
+
+.quatar {
+    background-position:0 -1248px;
+    width:27px;
+    height:22px
+}
+
+.romania {
+    background-position:0 -1280px;
+    width:27px;
+    height:22px
+}
+
+.russia {
+    background-position:0 -1312px;
+    width:27px;
+    height:22px
+}
+
+.rwanda {
+    background-position:0 -1344px;
+    width:27px;
+    height:22px
+}
+
+.saudiarabia {
+    background-position:0 -1376px;
+    width:27px;
+    height:22px
+}
+
+.senegal {
+    background-position:0 -1408px;
+    width:27px;
+    height:22px
+}
+
+.serbia {
+    background-position:0 -1440px;
+    width:27px;
+    height:22px
+}
+
+.singapore {
+    background-position:0 -1472px;
+    width:27px;
+    height:22px
+}
+
+.slovakia {
+    background-position:0 -1504px;
+    width:27px;
+    height:22px
+}
+
+.southafrica {
+    background-position:0 -1536px;
+    width:27px;
+    height:22px
+}
+
+.taiwan {
+    background-position:0 -1568px;
+    width:27px;
+    height:22px
+}
+
+.uae {
+  background-position: 0 -1600px;
+  height: 22px;
+  width: 110px;
+  display: block;
+}
+
+.tanzania {
+    background-position:0 -1632px;
+    width:27px;
+    height:22px
+}
+
+.thailand {
+    background-position:0 -1664px;
+    width:27px;
+    height:22px
+}
+
+.uganda {
+    background-position:0 -1696px;
+    width:27px;
+    height:22px
+}
+
+.ukraine {
+    background-position:0 -1728px;
+    width:27px;
+    height:22px
+}
+
+.vietnam {
+    background-position:0 -1760px;
+    width:27px;
+    height:22px
+}
+
+.egypt {
+    background-position:0 -1790px;
+    width:27px;
+    height:22px
+}
+
+
+.montenegro {
+  background-position: 0 -1820px;
+  height: 22px;
+  width: 26px;
+}
+
+.bosnia-and-herzegovina {
+  background-position: 0 -1848px !important;
+  display: block;
+  height: 35px !important;
+  width: 110px;
+}
+
+/* --------------------------------------
+Media queries
+-------------------------------------- */
+#scroll-fix{
+  background: white;
+  padding-top: 20px
+}
+#scroll-fix img{
+  width: 40px;
+  height: 30px;
+}
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+#services_step_1,#services_step_2,#services_step_3,#services_step_4{
+  height: 25px;
+}
+.restaurants img{
+  height: 100px;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .restaurants img{
+    height: 150px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

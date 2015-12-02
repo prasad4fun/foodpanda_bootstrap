@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <!-- Website Title & Description for Search Engine purposes -->
+  <title>foodpanda</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="includes/css/styles.css" rel="stylesheet">
+
+  <!-- Include Modernizr in the head, before any other Javascript -->
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container" id="main">
+    <div class="row" id="header">
+      <div class="navbar col-12">
+        <div class="container">
+
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <button type="button" name="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#" class="navbar-brand" id="logo"><img src="images/panda.png" alt="panda" class="img-responsive">
+          </a>
+
+          <div class="nav-collapse collapse navbar-responsive-collapse">
+            <h1 class="pull-left">Foodpanda</h1>
+            <div class="col-10">
+              <ul class="nav navbar-nav pull-right" id="Menu">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="order">
+											Order
+											<strong class="caret"></strong>
+										</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Home delivery</a>
+                    </li>
+                    <li>
+                      <a href="#">Pick Up</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">More services</li>
+                    <li>
+                      <a href="#">Deliver later</a>
+                    </li>
+                  </ul>
+                  <!-- end dropdown-menu -->
+                </li>
+                <!-- end dropdown -->
+                <li>
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+              <!--end nav-->
+            </div>
+            <!-- end col-10 -->
+          </div>
+          <!-- end nav-collapse -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end navbar -->
+    </div>
+    <!--end row -->
+
+    <div class="row hero">
+      <div class="col-12">
+        <h1>Hungry?</h1>
+        <h3>Order from Foodpanda</h3>
+        <h3>in your country</h3>
+      </div>
+      <!-- end hero -->
+    </div>
+    <!-- end row -->
+    <!-- have to design  more countries -->
+    <div class="row" id="scroll-fix">
+      <div class="col-lg-12">
+        <h4 class="col-lg-3">Order Food In your country</h4>
+        <div class="col-lg-9 col-sm-12">
+          <img src="images/india.png" alt="india" class="countries img-responsive">
+          <img src="images/pakistan.png" alt="pakistan" class="countries img-responsive">
+          <img src="images/singapore.png" alt="singapore" class="countries img-responsive">
+          <img src="images/malaysia.png" alt="malaysia" class="countries img-responsive">
+          <img src="images/bangladesh.png" alt="bangladesh" class="countries img-responsive">
+          <img src="images/indonesia.png" alt="indonesia" class="countries img-responsive">
+          <img src="images/thailand.png" alt="thailand" class="countries img-responsive">
+          <img src="images/hongkong.png" alt="hongkong" class="countries img-responsive">
+          <img src="images/vietnam.png" alt="invietnam" class="countries img-responsive">
+          <img src="images/taiwan.png" alt="taiwan" class="countries img-responsive">
+          <button type="button" name="button" id="alertMe" class="btn btn-warning pull-right hidden-sm">More Countries</button>
+        </div>
+        <hr class="col-lg-12">
+      </div>
+    </div>
+    <!-- scroll-fix -->
+
+    <div class="row" id="hidden">
+      <div class="col-lg-12">
+        <div class="hidden-sm fade in">
+          <button type="button" class="close">&times;</button>
+          <h2>Order food online in your country</h2>
+          <div id="countries">
+            <div class="listing-asia col-3">
+              <h4>Asia</h4>
+              <ul>
+                <li><a class="india" href="https://www.foodpanda.in/">India</a>
+                </li>
+                <li><a class="thailand" href="https://www.foodpanda.co.th/">Thailand</a>
+                </li>
+                <li><a class="indonesia" href="https://www.foodpanda.co.id/">Indonesia</a>
+                </li>
+                <li><a class="pakistan" href="https://www.foodpanda.pk/">Pakistan</a>
+                </li>
+                <li><a class="singapore" href="https://www.foodpanda.sg/">Singapore</a>
+                </li>
+                <li><a class="malaysia" href="https://www.foodpanda.my/">Malaysia</a>
+                </li>
+                <li><a class="vietnam" href="https://www.foodpanda.vn/">Vietnam</a>
+                </li>
+                <li><a class="taiwan" href="https://www.foodpanda.com.tw/">Taiwan</a>
+                </li>
+                <li><a class="bangladesh" href="https://www.foodpanda.com.bd/">Bangladesh</a>
+                </li>
+                <li><a class="kazakhstan" href="https://www.foodpanda.kz/">Kazakhstan</a>
+                </li>
+                <li><a class="hongkong" href="https://www.foodpanda.hk/">Hong Kong</a>
+                </li>
+                <li><a class="philippines" href="https://www.foodpanda.ph/">Philippines</a>
+                </li>
+                <li><a class="brunei" href="https://www.foodpanda.com.bn/">Brunei</a>
+                </li>
+              </ul>
+            </div>
+            <div class="listing-europe col-3">
+              <h4>Europe</h4>
+              <ul>
+                <li><a class="russia" href="https://www.delivery-club.ru/">Russia</a>
+                </li>
+                <li><a class="hungary" href="http://www.netpincer.hu/">Hungary</a>
+                </li>
+                <li><a class="romania" href="https://www.foodpanda.ro/">Romania</a>
+                </li>
+                <li><a class="bulgaria" href="https://www.foodpanda.bg/">Bulgaria</a>
+                </li>
+                <li><a class="georgia" href="https://www.foodpanda.ge/">Georgia</a>
+                </li>
+                <li><a href="http://www.donesi.com" class="serbia">Serbia</a>
+                </li>
+                <li><a href="http://www.pauza.hr" class="croatia">Croatia</a>
+                </li>
+                <li><a href="http://www.donesi.com" class="montenegro">Montenegro</a>
+                </li>
+                <li><a class="bosnia-and-herzegovina" href="http://www.donesi.com/">Bosnia &amp; Herzegovina</a>
+                </li>
+              </ul>
+            </div>
+            <div class="listing-latam col-3">
+              <h4>Latin America</h4>
+              <ul>
+                <li><a class="brazil" href="https://www.hellofood.com.br/">Brazil</a>
+                </li>
+                <li><a class="mexico" href="https://www.hellofood.com.mx/">Mexico</a>
+                </li>
+              </ul>
+            </div>
+            <div class="listing-middleeast col-3">
+              <h4>Middle East</h4>
+              <ul>
+                <li><a class="saudiarabia" href="https://www.hellofood.sa/">Saudi Arabia</a>
+                </li>
+                <li><a class="jordan" href="https://www.hellofood.jo/">Jordan</a>
+                </li>
+                <li><a class="uae" href="https://www.24h.ae/">UAE</a>
+                </li>
+                <li><a class="egypt" href="http://egypt.hellofood.com/">Egypt</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- end hidden-sm -->
+          <hr class="col-12">
+        </div>
+        <!-- end col-12 -->
+      </div>
+      <!-- end hidden -->
+    </div>
+    <!-- end hidden -->
+    <div class="row" id="services">
+      <div class="col-md-12 col-lg-12">
+        <ul>
+          <li class="col-md-3 col-lg-3">
+            <img src="images/search.png" alt="search" />
+            <div class="title">
+              1. Search
+            </div>
+            <div class="description">
+              Find restaurents that deliver to you by entering your address.
+            </div>
+          </li>
+          <li class="col-md-3 col-lg-3">
+            <img src="images/choose.png" alt="choose" />
+            <div class="title">
+              2. Choose
+            </div>
+            <div class="description">
+              Browse hundreds of menus to find the food you like.
+            </div>
+          </li>
+          <li class="col-md-3 col-lg-3">
+            <img src="images/pay.png" alt="pay" />
+            <div class="title">
+              3. Pay
+            </div>
+            <div class="description">
+              Pay fast & secure online or on delivery.
+            </div>
+          </li>
+          <li class="col-md-3 col-lg-3">
+            <img src="images/enjoy.png" alt="enjoy" />
+            <div class="title">
+              4. Enjoy
+            </div>
+            <div class="description">
+              Food is prepared & delivered to your door.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- end col-12 -->
+    </div>
+    <!-- end row -->
+    <div class="row" id="download">
+      <div class="col-lg-12">
+        <hr>
+        <div class="col-lg-3" id="devices">
+          <img src="images/devices.png" alt="images" class="img-responsive" />
+        </div>
+        <!-- end devices -->
+        <div class="download_link col-lg-9">
+          <h1>Order on the go</h1>
+          <p>
+            Tap, choose and enjoy from many restaurants in your neighbourhood.
+            <br> And all this for FREE!
+          </p>
+          <div class="col-lg-4">
+            <a href="">
+              <img src="images/ios_app_badge.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="">
+              <img src="images/play_app_badge.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="">
+              <img src="images/win_app_badge.png" alt="">
+            </a>
+          </div>
+        </div>
+        <!-- end download-links -->
+        <hr>
+      </div>
+      <!-- end col-12 -->
+    </div>
+    <!-- end row -->
+    <div class="row" id="join_us">
+      <div class="col-lg-12">
+        <div class="col-lg-6">
+          <h1>Join us at foodpanda</h1>
+          <p>
+            We are a highly motivated team, aspiring to become the global synonym for online food ordering
+            <br>
+          </p>
+        </div>
+        <!-- end col-6 -->
+        <div class="col-lg-6" id="join_us_2">
+          <h1>Latest press releases</h1>
+          <date>November 18, 2015</date>
+          <p>
+            foodpanda group launches separate product for corporate clients
+          </p>
+          <date>May 1, 2015</date>
+          <p>
+            foodpanda raises additional USD 100 Million in funding led by
+            <br>Goldman Sachs
+          </p>
+          <date>March 12, 2015</date>
+          <p>
+            foodpanda raises USD 110 Million in new funding round
+            <br>
+          </p>
+        </div>
+        <!-- end join_us_2 -->
+      </div>
+      <!-- end col-12 -->
+    </div>
+    <!-- End join_us -->
+    <!-- </div><! end container -->
+    <div class="row" id="footer">
+      <div class="container">
+        <div class="col-8">
+          <div class="hidden-sm">
+            <h2>Hungry? Order in your country</h2>
+            <div id="countries_listing">
+              <div class="listing-asia col-3">
+                <h4>Asia</h4>
+                <ul>
+                  <li><a class="india" href="https://www.foodpanda.in/">India</a>
+                  </li>
+                  <li><a class="thailand" href="https://www.foodpanda.co.th/">Thailand</a>
+                  </li>
+                  <li><a class="indonesia" href="https://www.foodpanda.co.id/">Indonesia</a>
+                  </li>
+                  <li><a class="pakistan" href="https://www.foodpanda.pk/">Pakistan</a>
+                  </li>
+                  <li><a class="singapore" href="https://www.foodpanda.sg/">Singapore</a>
+                  </li>
+                  <li><a class="malaysia" href="https://www.foodpanda.my/">Malaysia</a>
+                  </li>
+                  <li><a class="vietnam" href="https://www.foodpanda.vn/">Vietnam</a>
+                  </li>
+                  <li><a class="taiwan" href="https://www.foodpanda.com.tw/">Taiwan</a>
+                  </li>
+                  <li><a class="bangladesh" href="https://www.foodpanda.com.bd/">Bangladesh</a>
+                  </li>
+                  <li><a class="kazakhstan" href="https://www.foodpanda.kz/">Kazakhstan</a>
+                  </li>
+                  <li><a class="hongkong" href="https://www.foodpanda.hk/">Hong Kong</a>
+                  </li>
+                  <li><a class="philippines" href="https://www.foodpanda.ph/">Philippines</a>
+                  </li>
+                  <li><a class="brunei" href="https://www.foodpanda.com.bn/">Brunei</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="listing-europe col-3">
+                <h4>Europe</h4>
+                <ul>
+                  <li><a class="russia" href="https://www.delivery-club.ru/">Russia</a>
+                  </li>
+                  <li><a class="hungary" href="http://www.netpincer.hu/">Hungary</a>
+                  </li>
+                  <li><a class="romania" href="https://www.foodpanda.ro/">Romania</a>
+                  </li>
+                  <li><a class="bulgaria" href="https://www.foodpanda.bg/">Bulgaria</a>
+                  </li>
+                  <li><a class="georgia" href="https://www.foodpanda.ge/">Georgia</a>
+                  </li>
+                  <li><a href="http://www.donesi.com" class="serbia">Serbia</a>
+                  </li>
+                  <li><a href="http://www.pauza.hr" class="croatia">Croatia</a>
+                  </li>
+                  <li><a href="http://www.donesi.com" class="montenegro">Montenegro</a>
+                  </li>
+                  <li><a class="bosnia-and-herzegovina" href="http://www.donesi.com/">Bosnia &amp; Herzegovina</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="listing-latam col-3">
+                <h4>Latin America</h4>
+                <ul>
+                  <li><a class="brazil" href="https://www.hellofood.com.br/">Brazil</a>
+                  </li>
+                  <li><a class="mexico" href="https://www.hellofood.com.mx/">Mexico</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="listing-middleeast col-3">
+                <h4>Middle East</h4>
+                <ul>
+                  <li><a class="saudiarabia" href="https://www.hellofood.sa/">Saudi Arabia</a>
+                  </li>
+                  <li><a class="jordan" href="https://www.hellofood.jo/">Jordan</a>
+                  </li>
+                  <li><a class="uae" href="https://www.24h.ae/">UAE</a>
+                  </li>
+                  <li><a class="egypt" href="http://egypt.hellofood.com/">Egypt</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="pull-right">
+            <h4>Follow us</h4>
+            <ul class="">
+              <li class="col-sm-3">
+                <a href="#">
+                  <img src="images/facebook.png" alt="facebook">
+                </a>
+              </li>
+              <li class="col-sm-3">
+                <a href="#">
+                  <img src="images/linkedin.png" alt="linkedin">
+                </a>
+              </li>
+              <li class="col-sm-3">
+                <a href="#">
+                  <img src="images/twitter.png" alt="twitter">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 copy">
+          <p>copy rights &copy; foodpanda</p>
+          <p>all rights reserved.</p>
+        </div>
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end footer -->
+  </div>
+  <!-- end container -->
+
+  <!-- All Javascript at the bottom of the page for faster page loading -->
+
+  <!-- First try for the online version of jQuery-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>
+    window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="includes/js/script.js"></script>
+
+</body>
+
+</html>

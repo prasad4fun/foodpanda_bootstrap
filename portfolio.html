@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <!-- Website Title & Description for Search Engine purposes -->
+  <title>Portfolio</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="includes/css/styles.css" rel="stylesheet">
+
+  <!-- Include Modernizr in the head, before any other Javascript -->
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="header">
+      <div class="navbar col-12">
+        <div class="container">
+
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <button type="button" name="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#" class="navbar-brand" id="logo"><img src="images/panda.png" alt="panda">
+          </a>
+
+          <div class="nav-collapse collapse navbar-responsive-collapse">
+            <h1 class="pull-left">Foodpanda</h1>
+            <div class="col-10">
+              <ul class="nav navbar-nav pull-right" id="Menu">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="order">
+                     Order
+                     <strong class="caret"></strong>
+                   </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Home delivery</a>
+                    </li>
+                    <li>
+                      <a href="#">Pick Up</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">More services</li>
+                    <li>
+                      <a href="#">Deliver later</a>
+                    </li>
+                  </ul>
+                  <!-- end dropdown-menu -->
+                </li>
+                <!-- end dropdown -->
+                <li>
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+              <!--end nav-->
+            </div>
+            <!-- end col-10 -->
+          </div>
+          <!-- end nav-collapse -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end navbar -->
+    </div>
+    <!--end header -->
+
+    <!-- Top restaurants section start here -->
+    <div class="row restaurants">
+      <h3 class=" col-12 well well-small">Top restaurants at foodpanda across the world</h3>
+    </div>
+    <!-- end row -->
+    <div class="row restaurants">
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/crowne-plaza-dayton.jpg" alt="crowne-plaza-dayton" />
+          </a>
+        </div>
+
+        <h6>El Celler de Can Roca (Girona, Spain)</h6>
+      </div>
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/radio-rooftop.jpg" alt="Barleyz" />
+          </a>
+        </div>
+
+        <h6>Osteria Francescana (Modena, Italy)</h6>
+      </div>
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <img src="images/Ista_Bangalore_Liquid.jpg" alt="Ista_Bangalore_Liquid" />
+        </div>
+
+        <h6>Noma (Copenhagen, Denmark)</h6>
+      </div>
+      <!-- </div><!-- end row -->
+      <!-- <div class="row restaurants"> -->
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/restaurent1.jpg" alt="restaurent1" />
+          </a>
+        </div>
+
+        <h6>Eleven Madison Park (New York, USA)</h6>
+      </div>
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/restaurent.jpg" alt="restaurent" />
+          </a>
+        </div>
+
+        <h6>Gaggan (Bangkok, Thailand)</h6>
+      </div>
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/restaurent2.jpg" alt="restaurent2" />
+          </a>
+        </div>
+
+        <h6>Central (Lima, Peru)</h6>
+      </div>
+      <!-- </div><!-- end row -->
+      <!-- <div class="row restaurants" > -->
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/Girona-Spain.jpg" alt="Girona-Spain" />
+          </a>
+        </div>
+
+        <h6>Mugaritz (San Sebastian, Spain)</h6>
+      </div>
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/Barleyz-bangalore.jpg" alt="Barleyz" />
+          </a>
+        </div>
+
+        <h6>Dinner (London, UK)</h6>
+      </div>
+      <div class="col-lg-4 col-6">
+        <div class="thumbnail">
+          <a href="#myModal" data-toggle="modal">
+            <img src="images/terraza_solarium.jpg" alt="terraza_solarium" />
+          </a>
+        </div>
+
+        <h6>Narisawa (Tokyo, Japan)</h6>
+      </div>
+    </div>
+    <!-- end row -->
+
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" name="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Book your table for later.</h4>
+          </div>
+          <!-- end modal-header -->
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-lg-3 control-label" for="inputName">Name</label>
+                <div class="col-lg-9">
+                  <input class="form-control" id="inputName" placeholder="Name" type="text">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-lg-3 control-label" for="inputEmail">Email</label>
+                <div class="col-lg-9">
+                  <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-lg-3 control-label" for="inputMessage">Time of visit</label>
+                <div class="col-lg-9">
+                  <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                  <button class="btn btn-success pull-right" type="submit">Submit</button>
+                </div>
+              </div>
+            </form>
+            <!-- end horizantal-form -->
+          </div>
+          <!-- end modal-body -->
+        </div>
+        <!-- end moodal content -->
+      </div>
+      <!-- end modal dailog -->
+    </div>
+    <!-- end myModal -->
+    <!-- Top restaurants section end here -->
+
+    <!-- Careers section start here -->
+    <div class="row" id="we">
+      <div class="col-lg-8">
+        <h3>We are foodpanda</h3>
+        <p>
+          foodpanda is one of the world’s largest online food ordering marketplaces. We launched our first market, Singapore, in 2012 and are headquartered in Berlin. Currently we are active across Asia, Eastern Europe, Latin America, and the Middle East, employing more than 3,700 people worldwide.In June 2014 the foodpanda group won the European Tech Startup Award as best E-Commerce Start-Up. The company has raised over US $300 Million from various investors since its launch in 2012.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <h3>Job spotlight</h3>
+        <div class="carousel slide" id="myCarousel">
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active" id="slide1">
+              <div class="carousel-caption">
+              </div>
+              <!-- end carousel-caption-->
+            </div>
+            <!-- end item -->
+
+            <div class="item" id="slide2">
+              <div class="carousel-caption">
+              </div>
+              <!-- end carousel-caption-->
+            </div>
+            <!-- end item -->
+
+            <div class="item" id="slide3">
+              <div class="carousel-caption">
+              </div>
+              <!-- end carousel-caption-->
+            </div>
+            <!-- end item -->
+          </div>
+          <!-- carousel-inner -->
+
+          <!-- Controls -->
+          <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+          <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+        </div>
+        <!-- end carousel slide -->
+        <!-- <img src="images/hr_manager.jpg" alt="" class="col-lg-12"/> -->
+      </div>
+      <!-- end job-spot light -->
+    </div>
+    <!-- Careers section end here -->
+    <!-- </div><!-- end container -->
+
+    <div class="row" id="footer">
+      <div class="container">
+        <div class="col-8">
+          <div class="hidden-sm">
+            <h2>Hungry? Order in your country</h2>
+            <div id="countries">
+              <div class="listing-asia col-3">
+                <h4>Asia</h4>
+                <ul>
+                  <li><a class="india" href="https://www.foodpanda.in/">India</a>
+                  </li>
+                  <li><a class="thailand" href="https://www.foodpanda.co.th/">Thailand</a>
+                  </li>
+                  <li><a class="indonesia" href="https://www.foodpanda.co.id/">Indonesia</a>
+                  </li>
+                  <li><a class="pakistan" href="https://www.foodpanda.pk/">Pakistan</a>
+                  </li>
+                  <li><a class="singapore" href="https://www.foodpanda.sg/">Singapore</a>
+                  </li>
+                  <li><a class="malaysia" href="https://www.foodpanda.my/">Malaysia</a>
+                  </li>
+                  <li><a class="vietnam" href="https://www.foodpanda.vn/">Vietnam</a>
+                  </li>
+                  <li><a class="taiwan" href="https://www.foodpanda.com.tw/">Taiwan</a>
+                  </li>
+                  <li><a class="bangladesh" href="https://www.foodpanda.com.bd/">Bangladesh</a>
+                  </li>
+                  <li><a class="kazakhstan" href="https://www.foodpanda.kz/">Kazakhstan</a>
+                  </li>
+                  <li><a class="hongkong" href="https://www.foodpanda.hk/">Hong Kong</a>
+                  </li>
+                  <li><a class="philippines" href="https://www.foodpanda.ph/">Philippines</a>
+                  </li>
+                  <li><a class="brunei" href="https://www.foodpanda.com.bn/">Brunei</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="listing-europe col-3">
+                <h4>Europe</h4>
+                <ul>
+                  <li><a class="russia" href="https://www.delivery-club.ru/">Russia</a>
+                  </li>
+                  <li><a class="hungary" href="http://www.netpincer.hu/">Hungary</a>
+                  </li>
+                  <li><a class="romania" href="https://www.foodpanda.ro/">Romania</a>
+                  </li>
+                  <li><a class="bulgaria" href="https://www.foodpanda.bg/">Bulgaria</a>
+                  </li>
+                  <li><a class="georgia" href="https://www.foodpanda.ge/">Georgia</a>
+                  </li>
+                  <li><a href="http://www.donesi.com" class="serbia">Serbia</a>
+                  </li>
+                  <li><a href="http://www.pauza.hr" class="croatia">Croatia</a>
+                  </li>
+                  <li><a href="http://www.donesi.com" class="montenegro">Montenegro</a>
+                  </li>
+                  <li><a class="bosnia-and-herzegovina" href="http://www.donesi.com/">Bosnia &amp; Herzegovina</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="listing-latam col-3">
+                <h4>Latin America</h4>
+                <ul>
+                  <li><a class="brazil" href="https://www.hellofood.com.br/">Brazil</a>
+                  </li>
+                  <li><a class="mexico" href="https://www.hellofood.com.mx/">Mexico</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="listing-middleeast col-3">
+                <h4>Middle East</h4>
+                <ul>
+                  <li><a class="saudiarabia" href="https://www.hellofood.sa/">Saudi Arabia</a>
+                  </li>
+                  <li><a class="jordan" href="https://www.hellofood.jo/">Jordan</a>
+                  </li>
+                  <li><a class="uae" href="https://www.24h.ae/">UAE</a>
+                  </li>
+                  <li><a class="egypt" href="http://egypt.hellofood.com/">Egypt</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <!-- end counntries -->
+          </div>
+          <!-- end hidden-sm -->
+        </div>
+        <!-- end col-8 -->
+        <div class="col-lg-4">
+          <div class="pull-right">
+            <h4>Follow us</h4>
+            <ul class="">
+              <li class="col-lg-3">
+                <a href="#">
+                  <img src="images/facebook.png" alt="facebook">
+                </a>
+              </li>
+              <li class="col-lg-3">
+                <a href="#">
+                  <img src="images/linkedin.png" alt="linkedin">
+                </a>
+              </li>
+              <li class="col-lg-3">
+                <a href="#">
+                  <img src="images/twitter.png" alt="twitter">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end pull-right -->
+        </div>
+        <!-- end col-lg-4 -->
+        <div class="col-sm-12 copy">
+          <p>copy rights &copy; foodpanda</p>
+          <p>all rights reserved.</p>
+        </div>
+        <!-- end copy -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end footer -->
+
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+      window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+
+</body>
+
+</html>
