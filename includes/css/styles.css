@@ -707,6 +707,9 @@ Media queries
 .hero h3{
   font-size: 20px;
 }
+h6, .h6 {
+    font-size: 8px;
+}
 }
 
 /* Landscape phone to portrait tablet */
