@@ -19,6 +19,15 @@ Notes:	 Hand coded for Udemy.com
    #collapse-btn{
      margin-right: 0px;
    }
+   #scroll-fix {
+     // position: fixed !important;
+   }
+   #scroll-fix.stick{
+     position: fixed;
+     width: 1170px;
+     top: 0;
+     z-index: 10000;
+   }
 
 
 /* --------------------------------------
