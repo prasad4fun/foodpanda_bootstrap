@@ -16,6 +16,9 @@ Notes:	 Hand coded for Udemy.com
    #Menu{
      margin-top: 0px;
    }
+   #collapse-btn{
+     margin-right: 0px;
+   }
 
 
 /* --------------------------------------
@@ -68,7 +71,7 @@ Notes:	 Hand coded for Udemy.com
      font-size: 20px;
    }
    #header button{
-     margin-right: 30px;
+     margin-right: 0px;
    }
    a:focus{
      color: #555 !important;
@@ -697,6 +700,12 @@ Media queries
 }
 .restaurants img{
   height: 100px;
+}
+.hero h1,{
+  font-size: 30px;
+}
+.hero h3{
+  font-size: 20px;
 }
 }
 
